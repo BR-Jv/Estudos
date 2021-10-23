@@ -26,19 +26,19 @@ Ex: media = (n1 + n2 + n3 + n4 + n5)/5; -> calcula a média aritmética entre ci
 2. Indique o que será impresso em cada um dos comandos de saída (cout) a seguir:
 (a) cout < < pow(3,2) + 1 < < endl;
 (b) cout < < 5 + 0.5 < < endl;
-(c) cout < < `a' < < endl;
-(d) cout < < (int) `a' < < endl;
-(e) cout < < 1 + `1' < < endl;
-(f) cout < < (char) (`a' + 5) < < endl;
-(g) cout < < (char) (1 + `1') < < endl;
+(c) cout < < 'a' < < endl;
+(d) cout < < (int) 'a' < < endl;
+(e) cout < < 1 + '1' < < endl;
+(f) cout < < (char) ('a' + 5) < < endl;
+(g) cout < < (char) (1 + '1') < < endl;
 (h) cout < < (5 > 3) < < endl;
 (i) cout < < (2 || 1) < < endl;
-(j) cout < < (0 && `K') < < endl;
+(j) cout < < (0 && 'K') < < endl;
 (k) cout < < (2 < 5 && 15/3 == 5)< < endl;
-(l) cout < < (`j' + 3 > `z' || `z'> `a') < < endl;
+(l) cout < < ('j' + 3 > 'z' || 'z'> 'a') < < endl;
 
-3. Escreva um programa que leia o raio de um círculo e informe o diâmetro, a circunferência e
-a área do círculo.
+3. Escreva um programa que leia o raio de um círculo e informe o *diâmetro*, a *circunferência* e
+a *área do círculo*.
 
 4. Escreva um programa que leia um número inteiro de 5 dígitos, separe o número em dígitos
 individuais e imprima os dígitos separados um do outro por três espaços cada um. Por
