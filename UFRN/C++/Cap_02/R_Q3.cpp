@@ -7,14 +7,17 @@ int main(){
    float raio;
    float diametro;
    float circunferencia;
+   float areadocirculo;
 
    cout << "Digite o valo do raio" << endl;
    cin >> raio;
 
    diametro = raio*2;
-   circunferencia = diametro * PI;
+   circunferencia = (2*PI) * raio;
+   areadocirculo = PI * (raio*raio);
 
    cout << "O valor do diametro: " << diametro << endl;
    cout << "O valor da circunferencia: " << circunferencia <<endl;
+   cout << "O valor da area do circulo: " << areadocirculo << endl;
    return 0;
 }
