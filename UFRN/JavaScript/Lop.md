@@ -1,0 +1,1 @@
+Todos os algoritms que foram usados na plataforma lop 
