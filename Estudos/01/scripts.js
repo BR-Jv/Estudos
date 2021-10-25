@@ -1,5 +1,3 @@
-const kkk =  'kkk';
-
 const button = document.getElementById('btn1');
 const body = document.querySelector('body');
 
