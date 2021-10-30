@@ -1,0 +1,42 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root {
+   --bodyColor: #d9d9d9;
+   --cardColor: #2e2f33;
+   --buttonColor: #2ebd59;
+}
+
+body {
+   background-color: var(--bodyColor);
+}
+form {
+   background-color: var(--cardColor);
+   width: 50%;
+   height: 50vh;
+   margin: 25vh auto;
+}
+.flex {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+input, button {
+   width: 80%;
+   height: 25px;
+   border-radius: 40px;
+   margin-top: 10px;
+   border: none;
+}
+input {
+   padding: 15px;
+}
+
+button {
+   color: #fff;
+   background-color: var(--buttonColor);
+}
+ 
