@@ -2,18 +2,18 @@
 
 using namespace std;
 
-int maior(int valor1, int valor2){
-   int maiorNum;
+int antigo(int valor1, int valor2){
+   int old;
    if(valor1 == valor2){
       return 1;
    }else {
       if(valor1 > valor2){
-         maiorNum = valor1;
+         old = valor2;
       }else {
-         maiorNum = valor2;
+         old = valor1;
       }
    }
-   return maiorNum;
+   return old;
 }
 
 int main(){
@@ -27,34 +27,24 @@ int main(){
    cout << "Digite a segunda data: " << endl;
    cin >> dia2 >> mes2 >> ano2;
 
-   if(maior(ano1 , ano2) == ano1){
-      //ano2 é mais antigo
-      if(maior(mes1, mes2) == mes1){
-         //mes2 é mais antigo
-      }else if(maior(mes1, mes2) == 1){
-         //os meses são iguais 
-      }else {
-         //mes1 é mais antigo
-      }
-   }else if(maior(ano1, ano2) == 1){
-      //anos são iguais
-      if(maior(mes1, mes2)== mes1){
-
-      }else if(maior(mes1, mes2)==1){
-         if(maior(dia1, dia2)==dia1){
-            cout<<DATA2; 
-         }else if(maior(dia1, dia2)==1){
+   if(antigo(ano1, ano2) == ano1){
+      cout<<DATA1;
+   }else if(antigo(ano1, ano2) == 1){
+      if(antigo(mes1, mes2) == mes1){
+         cout<<DATA1;
+      }else if(antigo(mes1, mes2) == 1){
+         if(antigo(dia1, dia2) == dia1){
+            cout<<DATA1;
+         }else if(antigo(dia1, dia2) == 1){
             cout<<DATAIGUAL;
          }else {
-            cout<<DATA1;
+            cout<<DATA2;
          }
       }else {
-
+         cout<<DATA2;
       }
+   }else{
+      cout<<DATA2;
    }
-   else {
-      //ano1 é mais antigo
-   }
-
    return 0;
 }
