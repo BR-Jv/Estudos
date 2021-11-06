@@ -5,6 +5,7 @@
    -não pode nenhum dos dois -> 16 anos. 
    Veja que quem está com 16 ou 17 vota mas não dirige.
 */
+
 var idade = parseInt(prompt());
 if(idade < 16){
 	alert("não pode votar e nem dirigir")

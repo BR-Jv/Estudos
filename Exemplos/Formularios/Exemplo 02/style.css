@@ -8,13 +8,11 @@
    --cardColor: #2e2f33;
    --buttonColor: #2ebd59;
 }
-a {
-   
-}
 
 body {
    background-color: var(--bodyColor);
 }
+
 form {
    color: #fff;
    background-color: var(--cardColor);
@@ -24,6 +22,7 @@ form {
    margin: 15vh auto;
    box-shadow: -5px 5px 15px black;
 }
+
 .flex {
    display: flex;
    flex-direction: column;
@@ -31,25 +30,21 @@ form {
    align-items: center;
 }
 
-[type="text"], [type="password"] {
-   width: 60%;
-   height: 25px;
+[type="text"], [type="password"], button {
+   width: 100%;
+   height: 35px;
    border-radius: 40px;
-   margin-top: 10px;
    border: none;
+}
+.pad {
    padding: 15px;
 }
-
 button {
-   width: 60%;
-   height: 25px;
-   border-radius: 40px;
-   margin-top: 10px;
-   border: none;
    color: #fff;
    background-color: var(--buttonColor);
    cursor: pointer;
 }
+/*parte de cima*/
 .sign-card {
    width: 50%;
    display: flex;
@@ -63,7 +58,17 @@ button {
 .sign-card a:hover {
    border-bottom: solid 1px var(--buttonColor);
 }
+
+
 .checkbox-div {
-   background-color: aquamarine;
+   width: 80%;
+}
+ 
+.content-card {
    width: 60%;
+   height: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
 }

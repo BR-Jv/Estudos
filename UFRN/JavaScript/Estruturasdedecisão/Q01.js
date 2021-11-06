@@ -1,5 +1,5 @@
 /*
-   Vamos fazer um programa que que leia três valores e determine qual o menor deles. 
+   Faça um programa que que leia três valores e determine qual o menor deles. 
 */
 var n1 = parseInt(prompt());
 var n2 = parseInt(prompt());
