@@ -1,1 +1,1 @@
-Todos os algoritms que foram usados na plataforma lop 
+Aqui guardo os códigos mais legais que fiz durante a disciplina de Lógica de Programação.
