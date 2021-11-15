@@ -62,11 +62,42 @@ No cercado existem XXX coelhos e YYY patos.
 sendo XXX a quantidade de coelhos e YYY a quantidade de patos.
 
 Exemplo: 
-      Entrada | Saída 
+
+      Entrada | Saída
+      --------|------- 
       1 2     |No cercado existem 0 coelhos e 1 patos.
       1 4     |No cercado existem 1 coelhos e 0 patos.
       2 6     |No cercado existem 1 coelhos e 1 patos.
       3 8     |No cercado existem 1 coelhos e 2 patos.
       3 10    |No cercado existem 2 coelhos e 1 patos.
       4 12    |No cercado existem 2 coelhos e 2 patos. 
-         
+
+
+
+
+# Questão 07
+Utilizando o operador condicional ternário, escreva um programa que receba do usuário um número inteiro x. Em seguida, crie uma variável y do tipo inteiro e atribua a essa variável o valor da função f abaixo. Faça a impressão da variável y.
+
+y = f(x) = 
+      3x + 1, se x < 0 ; 
+      5x + 2, se x >= 0;
+
+Como exemplo, ao receber as entradas presentes na tebela abaixo, o programa deve apresentar na tela as saídas correspondentes
+Entrada | Saída
+-10     | -29
+0       | 2
+10      | 52
+
+# Questão 08
+Considerando-se uma variável x do tipo real, escreva um programa que recebe do usuário o valor de x e imprime na tela o valor da função f(x) definida abaixo: 
+      f(x) = 
+            2x+1, se x < 0
+            1, se x = 0
+            5x+10, se x > 0
+como exemplo, ao receber as entradas presentes na tabela abaixo, o programa deve apresentar na tela as saídas correspondentes.
+ 
+Entrada | Saída
+-1      |   -1
+0       |   1
+1       |   15
+2       |   20
