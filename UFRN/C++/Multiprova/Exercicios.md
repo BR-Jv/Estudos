@@ -2,14 +2,20 @@
 Implemente um programa que receba como entrada duas datas (dia, mês e ano) e imprima na tela qual das duas datas é a mais antiga. Assuma que serão digitados dias entre 1 e 31 e meses entre 1 e 12.
 
 Exemplo de entrada:
-11 9 1999 10 9 1999
-23 7 2016 23 7 2016
-1 1 2010 1 1 2011
+dia|mês|ano
+:---:|:---:|:---:
+11 |9  |1999 
+10 |9  |1999
+23 |7  |2016 
+23 |7  |2016
+1  |1  |2010 
+1  |1  |2011
 
 Exemplo de saída:
-A segunda data e mais antiga
-As datas sao iguais
-A primeira data e mais antiga
+
+A segunda data e mais antiga.
+As datas são iguais.
+A primeira data e mais antiga.
 
 # Questão 02 
 Escreva um programa que receba do usuário um número inteiro e imprima na tela o dobro.
@@ -47,7 +53,6 @@ Um ano é bissexto se for divisível por 4, mas não por 100. Um ano também é 
 
 Exemplo: 
       Entrada | Saída Esperada
-      --------|---------------
       2         0
       4         1
       100       0
