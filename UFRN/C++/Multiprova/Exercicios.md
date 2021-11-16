@@ -23,32 +23,22 @@ Escreva um programa que receba do usuário um número inteiro e imprima na tela 
 # Questão 03 
 Faça um programa que a cada dois inteiros lidos imprima sua respectiva soma. Cada resultado em uma linha.
 
-**Exemplo de entrada:**
-valor 1| valor 2
----|---
-1  |2
-3  |4
-5  |6
-
-**Exemplo de saída:**<br>
-3 <br>
-7 <br>
-11
+**Exemplo:**
+valor 1| valor 2 | saída
+---|---|---
+1  |2 | 3
+3  |4 | 7
+5  |6 | 11
 
 # Questão 04 
 Faça um programa que, ao ler 4 números (x1, y1, x2, y2) e considerando (x1, y1) e (x2, y2) como as coordenadas dos vértices opostos de um retângulo, calcule e imprima a sua área.
 
-**Exemplos de entrada:**
-x1|y1|x2|y2
-:---:|:---:|:---:|:---:
-1 |2 |3 |4
-2 |5 |2 |5
-3 |3 |4 |4
-
-**Exemplos de saída:** <br>
-4 <br>
-0 <br>
-1
+**Exemplo:**
+x1|y1|x2|y2 | saída 
+:---:|:---:|:---:|:---:|:---:
+1 |2 |3 |4 | 4
+2 |5 |2 |5 | 0
+3 |3 |4 |4 | 1
 
 # Questão 05 
 Escreva um programa que recebe do usuário um número inteiro representando um ano válido qualquer, e imprima na tela o valor 1 caso esse ano seja bissexto e o valor 0, caso contrário.<br>
@@ -56,14 +46,14 @@ Escreva um programa que recebe do usuário um número inteiro representando um a
 Um ano é bissexto se for divisível por 4, mas não por 100. Um ano também é bissexto se for divisível por 400.
 <br>
 Exemplo: 
-      Entrada| Saída
-      -------|-----
-      2      |0
-      4      |1
-      100    |0
-      400    |1
-      200    |0
-      204    |1
+Entrada | Saída
+:---:|:---:
+2      |0
+4      |1
+100    |0
+400    |1
+200    |0
+204    |1
 
 
 # Questão 06 
@@ -73,14 +63,14 @@ sendo XXX a quantidade de coelhos e YYY a quantidade de patos.
 
 Exemplo: 
 
-      Entrada | Saída
-      --------|------- 
-      1 2     |No cercado existem 0 coelhos e 1 patos.
-      1 4     |No cercado existem 1 coelhos e 0 patos.
-      2 6     |No cercado existem 1 coelhos e 1 patos.
-      3 8     |No cercado existem 1 coelhos e 2 patos.
-      3 10    |No cercado existem 2 coelhos e 1 patos.
-      4 12    |No cercado existem 2 coelhos e 2 patos. 
+Entrada | Saída
+---     |---
+1 2     |No cercado existem 0 coelhos e 1 patos.
+1 4     |No cercado existem 1 coelhos e 0 patos.
+2 6     |No cercado existem 1 coelhos e 1 patos.
+3 8     |No cercado existem 1 coelhos e 2 patos.
+3 10    |No cercado existem 2 coelhos e 1 patos.
+4 12    |No cercado existem 2 coelhos e 2 patos. 
 
 
 
@@ -93,7 +83,9 @@ y = f(x) =
       5x + 2, se x >= 0;
 
 Como exemplo, ao receber as entradas presentes na tebela abaixo, o programa deve apresentar na tela as saídas correspondentes
+
 Entrada | Saída
+:---:|:---:
 -10     | -29
 0       | 2
 10      | 52
@@ -107,6 +99,7 @@ Considerando-se uma variável x do tipo real, escreva um programa que recebe do 
 como exemplo, ao receber as entradas presentes na tabela abaixo, o programa deve apresentar na tela as saídas correspondentes.
  
 Entrada | Saída
+:---:|:---:
 -1      |   -1
 0       |   1
 1       |   15
