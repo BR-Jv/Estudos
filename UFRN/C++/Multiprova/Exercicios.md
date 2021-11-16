@@ -47,6 +47,7 @@ Um ano é bissexto se for divisível por 4, mas não por 100. Um ano também é 
 
 Exemplo: 
       Entrada | Saída Esperada
+      --------|---------------
       2         0
       4         1
       100       0
