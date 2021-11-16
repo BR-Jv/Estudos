@@ -1,7 +1,7 @@
 # Questão 01
 Implemente um programa que receba como entrada duas datas (dia, mês e ano) e imprima na tela qual das duas datas é a mais antiga. Assuma que serão digitados dias entre 1 e 31 e meses entre 1 e 12.
 
-Exemplo de entrada:
+**Exemplo de entrada:**
 dia|mês|ano
 :---:|:---:|:---:
 11 |9  |1999 
@@ -11,10 +11,10 @@ dia|mês|ano
 1  |1  |2010 
 1  |1  |2011
 
-Exemplo de saída:
+**Exemplo de saída:** 
 
-A segunda data e mais antiga.
-As datas são iguais.
+A segunda data e mais antiga.<br>
+As datas são iguais.<br>
 A primeira data e mais antiga.
 
 # Questão 02 
@@ -23,43 +23,47 @@ Escreva um programa que receba do usuário um número inteiro e imprima na tela 
 # Questão 03 
 Faça um programa que a cada dois inteiros lidos imprima sua respectiva soma. Cada resultado em uma linha.
 
-Exemplo de entrada:
-1 2
-3 4
-5 6
+**Exemplo de entrada:**
+valor 1| valor 2
+---|---
+1  |2
+3  |4
+5  |6
 
-Exemplo de saída:
-3
-7
+**Exemplo de saída:**<br>
+3 <br>
+7 <br>
 11
 
 # Questão 04 
 Faça um programa que, ao ler 4 números (x1, y1, x2, y2) e considerando (x1, y1) e (x2, y2) como as coordenadas dos vértices opostos de um retângulo, calcule e imprima a sua área.
 
-Exemplos de entrada:
-1 2 3 4
-2 5 2 5
-3 3 4 4
+**Exemplos de entrada:**
+x1|y1|x2|y2
+:---:|:---:|:---:|:---:
+1 |2 |3 |4
+2 |5 |2 |5
+3 |3 |4 |4
 
-Exeplos de saída:
-4
-0
+**Exemplos de saída:** <br>
+4 <br>
+0 <br>
 1
 
 # Questão 05 
-Escreva um programa que recebe do usuário um número inteiro representando um ano válido qualquer, e imprima na tela o valor 1 caso esse ano seja bissexto e o valor 0, caso contrário.
+Escreva um programa que recebe do usuário um número inteiro representando um ano válido qualquer, e imprima na tela o valor 1 caso esse ano seja bissexto e o valor 0, caso contrário.<br>
  
 Um ano é bissexto se for divisível por 4, mas não por 100. Um ano também é bissexto se for divisível por 400.
-
+<br>
 Exemplo: 
-      Entrada | Saída Esperada
-      2         0
-      4         1
-      100       0
-      400       1
-      200       0
-      204       1
-
+      Entrada| Saída
+      -------|-----
+      2      |0
+      4      |1
+      100    |0
+      400    |1
+      200    |0
+      204    |1
 
 
 # Questão 06 
