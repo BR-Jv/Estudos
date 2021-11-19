@@ -8,20 +8,32 @@
    <title>Sign Up page</title>
 </head>
 <body>
-   <form>
-      <div id="name">
-         <input type="text" placeholder="First Name" class="button" required>
-         <input type="text" placeholder="Last Name" class="button" required>
-      </div>
-      <input type="email" placeholder="Email" class="button"> 
-      <input type="password" placeholder="Password" class="button">
-      <input type="password" placeholder="Confirm Password" class="button">
-      <div id="privacy_policy">
-         <input type="checkbox"> 
-         <label for="">
-            I Agree with <span>privacy</span> and <span>policy</span>
-         </label>
-      </div>
-   </form>
+   <header >
+      <h1>Sign Up</h1>
+   </header>
+   <main>
+
+      <form class="mid">
+         <div id="name">
+            <input type="text" placeholder="First Name" class="button" required>
+            <input type="text" placeholder="Last Name" class="button" required>
+         </div>
+         <input type="email" placeholder="Email" class="button"> 
+         <input type="password" placeholder="Password" class="button">
+         <input type="password" placeholder="Confirm Password" class="button">
+         <div id="privacy_policy">
+            <input type="checkbox" id="checkbox"> 
+            <label for="checkbox">
+               I Agree with <span>privacy</span> and <span>policy</span>
+            </label>
+         </div>
+         <button>Sign up</button>
+      </form>
+   </main>
+   <footer>
+      <p>
+         Already have an account? <a href="#">Sign in</a>
+      </p>
+   </footer>
 </body>
 </html>
