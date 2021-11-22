@@ -17,9 +17,9 @@ int main(){
 char muda_caso (char c){
    int num_char = int(c);
    
-   if (num_char > 90){
+   if (num_char >= 97 && num_char <= 122){
       num_char -= 32;
-   }else {
+   }else if(num_char >=  65 && num_char <= 90) {
       num_char += 32;
    }
    
