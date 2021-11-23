@@ -17,16 +17,14 @@ Q | q
 e | E
 
 # Questão_03
-Implemente uma função chamada eh_primo, que retorna verdadeiro caso um número inteiro
-passado como parâmetro seja primo e falso caso contrário. Implemente também a função
-main, que deve ler do usuário vários números inteiros positivos e imprimir na tela uma
-mensagem informando se cada um deles é primo ou não. **O programa deve se encerrar quando o usuário inserir um número menor ou igual a 0.** 
+Implemente uma função chamada eh_primo, que retorna verdadeiro caso um número inteiro passado como parâmetro seja primo e falso caso contrário. Implemente também a função main, que deve ler do usuário vários números inteiros positivos e imprimir na tela uma mensagem informando se cada um deles é primo ou não. 
+**O programa deve se encerrar quando o usuário inserir um número menor ou igual a 0.** 
 
 Exemplo: 
 Número | Resultado
 ---|---
-3 | é primo 
-4 | não é primo 
-2 | é primo
+3  | é primo 
+4  | não é primo 
+2  | é primo
 
 
