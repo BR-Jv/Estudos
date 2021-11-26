@@ -55,7 +55,6 @@ Entrada | Saída
 200    |0
 204    |1
 
-
 # Questão 06 
 Escreva um programa que receba do usuário dois números inteiros. O primeiro número inteiro deve representar a quantidade total de cabeças dos animais existentes no cercado. O segundo número inteiro deve representar a quantidade total de patas dos animais existentes no cercado. Após o recebimento dos dados de entrada, o programa deve calcular e imprimir na tela as quantidades de coelhos e patos existentes no cercado, no seguinte formato:
 No cercado existem XXX coelhos e YYY patos.
@@ -71,9 +70,6 @@ Entrada | Saída
 3 8     |No cercado existem 1 coelhos e 2 patos.
 3 10    |No cercado existem 2 coelhos e 1 patos.
 4 12    |No cercado existem 2 coelhos e 2 patos. 
-
-
-
 
 # Questão 07
 Utilizando o operador condicional ternário, escreva um programa que receba do usuário um número inteiro x. Em seguida, crie uma variável y do tipo inteiro e atribua a essa variável o valor da função f abaixo. Faça a impressão da variável y.
@@ -104,3 +100,21 @@ Entrada | Saída
 0       |   1
 1       |   15
 2       |   20
+
+# Questão 09 
+Escreva um programa que receba do usuário dois números inteiros positivos, calcule e imprima na tela o valor do MDC entre eles
+
+Exemplo: 
+Entrada|Saída
+---|---
+12  9| 3
+450 15| 15
+63 77| 7
+143 187|11   
+
+# Questão 10
+Implemente uma função que calcula e retorna o valor se sen(x) por meio da aproximação apresentada abaixo, sendo x seu parâmetro: 
+
+sen(x) = x¹/1! - x³/3! + x<sup>5</sup>/5! - x<sup>7</sup>/7! ...
+
+utilize os 10 primeiros termos da série para fazer a aproximação. Use sua função criada em um programa que lê do usuário vários valores em radianos, calculando e mostrando o valor do seno para cada um destes valores. A leitura deverá ser finalizada quando um valor negativo for informado.
