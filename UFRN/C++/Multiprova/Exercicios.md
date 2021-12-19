@@ -118,3 +118,4 @@ Implemente uma função que calcula e retorna o valor se sen(x) por meio da apro
 sen(x) = x¹/1! - x³/3! + x<sup>5</sup>/5! - x<sup>7</sup>/7! ...
 
 utilize os 10 primeiros termos da série para fazer a aproximação. Use sua função criada em um programa que lê do usuário vários valores em radianos, calculando e mostrando o valor do seno para cada um destes valores. A leitura deverá ser finalizada quando um valor negativo for informado.
+

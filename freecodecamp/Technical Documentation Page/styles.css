@@ -1,0 +1,27 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+nav {
+   background-color: #808080;
+   height: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   opacity: 40%;
+   
+}
+
+ul li {
+   height: 35px;
+   list-style: none;
+   display: flex;
+   align-items: center;
+}
+a {
+   text-decoration: none;
+   color: #808080;
+   font-size: 16px;
+}
