@@ -6,28 +6,37 @@
   href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
   crossorigin="anonymous"
-/>
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     <title>Product Landing Page</title>
 </head>
 <body>
-    <header id="header" class="header">
-        <div>
+    <!--NAVEGATION-->
+    <nav id="nav-bar" class="nav-bar">
+       <!--
+            <a href="#">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" id="header-img">
-        </div>
-
-        <nav id="nav-bar" >
-            <ul>
-                <li><a href="#features" class="nav-link">Features</a></li>
-                <li><a href="#howitworks" class="nav-link">How It Works</a></li>
-                <li><a href="#pricing" class="nav-link">Pricing</a></li>
-            </ul>
-        </nav>
-
-    </header>
+        </a>
+       -->
+       <a href="#">HOME</a>
+        <!--NAV-MOBILE-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <!--NAV-DESKTOP-->
+        <ul id="myLinks">
+            <li><a href="#features" class="nav-link">link1</a></li>
+            <li><a href="#howitworks" class="nav-link">link2</a></li>
+            <li><a href="#pricing" class="nav-link">link3</a></li>
+            <li><a href="#pricing" class="nav-link">link4</a></li>
+        </ul>
+    </nav>
+    <!--    
     <main>
         <section id="hero">
             <form action="https://www.freecodecamp.com/email-submit" id="form">
@@ -120,7 +129,6 @@
                 <button class="button" id="btn2">SELECT</button>
             </div>
         </section>
-
     </main>
     <footer>
         <div id="div-footer">
@@ -132,5 +140,6 @@
             <p>Copyright 2016, Original Trombones</p>
         </div>
     </footer>
+    -->
 </body>
 </html>
