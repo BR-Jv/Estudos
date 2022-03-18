@@ -18,17 +18,33 @@ header a {
 }
 header {
     background-color: var(--color1);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    border-bottom: 1px solid var(--color2);
 }
 nav {
     background-color: var(--color1);
+    position: absolute;
+    top: 8vh;
+    width: 100%;
 }
-.nav-bar {
+.nav-bar{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 20vh;
-    display: none; /* vai ser mudado */
+    height: 200px;
+}
+.class-off {
+    display: none;
 }
 
 
+@media (min-width: 780px) {
+    .btn-mobile {
+        display: none;
+    }    
+}
