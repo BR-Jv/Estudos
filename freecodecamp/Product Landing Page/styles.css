@@ -2,4 +2,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+    --color1: #0d0d0d;
+    --color2: #f2f2f2;
+    --color3: #031CA6;
+    --color4: #0528f2;
+    --color5: #034c8c;
+}
+nav ul li {
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    background-color: var(--color1);
+}
+nav {
+    background-color: var(--color1);
+}
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20vh;
+    display: none; /* vai ser mudado */
+}
+
 
