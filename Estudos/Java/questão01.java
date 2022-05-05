@@ -3,6 +3,7 @@ package Java;
 import java.util.Scanner;
 
 public class questão01 {
+   
    public static void main(String[] args){
       Scanner leitor = new Scanner(System.in);
       int m , n;
@@ -20,9 +21,7 @@ public class questão01 {
          }
       }
       
-
       //Saida de dados 
-      
       for(int row1 = 0; row1 < m; row1++){
          for(int column1 = 0; column1 < n; column1++){
             System.out.print( matriz[row1][column1]); 
