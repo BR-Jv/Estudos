@@ -44,5 +44,5 @@ Escreva um programa que receba do usuário um número inteiro n, representando a
 Sabe-se que uma matriz quadrada A qualquer é considerada simétrica se for igual à sua transposta.
 Escreva um programa que receba do usuário um número inteiro positivo, seguido dos elementos de uma matriz A de n elementos. Feito isso, o programa deve imprimir na tela a mensagem "A matriz eh simetrica", caso a matriz A seja simétrica, ou a mensagem "A matriz nao eh simetrica", em caso contrário.
 
-![questão 04, tabela](/C%2B%2B/images/Q04.png)
+![questão 04, tabela](images/Q04.png)<br>
 **importante**: O programa deve estar correto e funcionar para qualquer matriz digitada e não apenas as matrizes específicas nos exemplos.
