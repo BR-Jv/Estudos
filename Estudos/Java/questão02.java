@@ -24,7 +24,9 @@ public class questão02 {
             b[x1][y1] = leitor.nextInt(); 
          }
       }
-   
+      
+      leitor.close();
+
       for(int linha = 0; linha < 3;linha++){
          for(int coluna = 0; coluna < 6; coluna++){
             if(coluna < 4 ){
