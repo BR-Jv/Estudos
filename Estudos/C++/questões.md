@@ -93,10 +93,10 @@ saida, do tipo Horario
 
 2.	Escreva um programa principal (função main) que receba do usuário duas palavras s1 e s2. Considere que o usuário fornecerá palavras contendo apenas caracteres alfabéticos, sem espaços em branco. Em seguida, utilize a função contar para calcular quantos caracteres de s1 aparecem em s2. Por fim, imprima na tela o valor calculado.
 
-Exemplos:
-Se s1 = "bola" e s2 = "boi", o resultado da função deve ser 2, pois o primeiro e o segundo caracteres de s1 aparecem uma vez cada em s2.
-Se s1 = "banana" e s2 = "bonde", o resultado da função deve ser 3, pois o primeiro, o terceiro e o quinto caracteres de s1 aparecem uma vez cada em s2.
-Se s1 = "bola" e s2 = "biobio", o resultado da função deve ser 4, pois o primeiro e o segundo caracteres de s1 aparecem duas vezes cada em s2.
+Exemplos:<br>
+Se s1 = "bola" e s2 = "boi", o resultado da função deve ser 2, pois o primeiro e o segundo caracteres de s1 aparecem uma vez cada em s2.<br>
+Se s1 = "banana" e s2 = "bonde", o resultado da função deve ser 3, pois o primeiro, o terceiro e o quinto caracteres de s1 aparecem uma vez cada em s2.<br>
+Se s1 = "bola" e s2 = "biobio", o resultado da função deve ser 4, pois o primeiro e o segundo caracteres de s1 aparecem duas vezes cada em s2.<br>
 Veja abaixo alguns exemplos de possíveis entradas e as respectivas saídas esperadas para o programa.
 
 ![questão 08, tabela](images/Q08.png)<br>
