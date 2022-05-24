@@ -46,7 +46,7 @@ Escreva um programa que receba do usuário um número inteiro n, representando a
 Sabe-se que uma matriz quadrada A qualquer é considerada simétrica se for igual à sua transposta.
 Escreva um programa que receba do usuário um número inteiro positivo, seguido dos elementos de uma matriz A de n elementos. Feito isso, o programa deve imprimir na tela a mensagem "A matriz eh simetrica", caso a matriz A seja simétrica, ou a mensagem "A matriz nao eh simetrica", em caso contrário.
 
-![questão 04, tabela](images/Q04.png)<br>
+![questão 04, tabela](Estudos/images/Q04.png)<br>
 **importante**: O programa deve estar correto e funcionar para qualquer matriz digitada e não apenas as matrizes específicas nos exemplos.
 
 # Questão 05
@@ -58,7 +58,7 @@ Por definição, uma matriz é dita esparsa quando possui uma grande quantidade 
 
 3. Implemente um programa principal que receba do usuário dois números inteiros nl e nc. Em seguida, declare uma matriz de números inteiros M, com nl linhas e nc colunas. Utilize a função lerMatriz para preencher M com valores fornecidos pelo usuário. Utiliize a função esparsa para verificar se M é uma matriz esparsa. O programa deverá imprimir na tela a mensagem "A matriz eh esparsa", caso M seja uma matriz esparsa, ou a mensagem "A matriz nao eh esparsa", em caso contrário.
 
-![questão 05, tabela](images/matriz_esparsa.png)<br>
+![questão 05, tabela](/Estudosimages/matriz_esparsa.png)<br>
 
 # Questão 06 
 1. Defina um tipo estruturado denominado **Vetor**, que será utilizado para representar vetores no espaço R³, e que contenha os campos x, y e z, todos do tipo double.
@@ -67,7 +67,7 @@ Por definição, uma matriz é dita esparsa quando possui uma grande quantidade 
 
 3. Implemente uma programa principal(função main), que receba do usuário duas estruturas do tipo Vetor: v1 e v2. Em seguida, o programa deverá declarar uma nova estrutura do tipo Vetor, denominada v3. Utiilzando a função soma definida acima, fazer com que v3 seja igual à soma vetorial de v1 com v2. Por fim, fazer a impresão de v3 na tela. 
 
-![questão 06, tabela](images/Q06.png)<br>
+![questão 06, tabela](/Estudos/images/Q06.png)<br>
 
 # Questão 07 
 Enquanto engenheiro, você precisa desenvolver um sistema para controlar a entrada e saída de carros em um estacionamento. 
@@ -86,7 +86,7 @@ saida, do tipo Horario
 
 4. Considerando-se que as informações contidas no vetor BancoDeDados não estão ordenadas sob qualquer aspecto e assumindo que os carros não podem pernoitar no estacionamento (todos os carros devem sair antes da meia noite da data de entrada), imprima na tela a placa do carro que permaneceu por mais tempo no estacionamento. Se dois ou mais carros permanecerem no estacionamento por um mesmo período de tempo, e esse for o maior período de permanência dentre os demais carros, deverá ser impressa na tela a placa do carro que primeiro aparece no vetor BancoDeDados.
 
-![questão 07, tabela](images/Q07.png)<br>
+![questão 07, tabela](/Estudos/images/Q07.png)<br>
 
 # Questão 08
 1.	Implemente uma função denominada contar, que receba como parâmetros duas palavras, s1 e s2, sem espaços em branco ou caracteres simbólicos. A função deve retornar quantos caracteres de s1 aparecem em s2, considerando as aparições repetidas.
@@ -99,9 +99,9 @@ Se s1 = "banana" e s2 = "bonde", o resultado da função deve ser 3, pois o prim
 Se s1 = "bola" e s2 = "biobio", o resultado da função deve ser 4, pois o primeiro e o segundo caracteres de s1 aparecem duas vezes cada em s2.<br>
 Veja abaixo alguns exemplos de possíveis entradas e as respectivas saídas esperadas para o programa.
 
-![questão 08, tabela](images/Q08.png)<br>
+![questão 08, tabela](/Estudos/images/Q08.png)<br>
 
 # Questão 09 
 Escreva um programa que receba do usuário duas strings s1 e s2. Considere que o usuário sempre fornecerá uma string s2 com tamanho menor ou igual ao de s1. Caso a string s2 esteja integralmente contida na string s1, modifique s1 de forma a remover todas as possíveis ocorrências de s2 em s1. Caso a string s2 não esteja contida na string s1, s1 deverá permanecer inalterada. Por fim, faça a impressão da string modificada s1 na tela.
 
-![questão 09, tabela](images/Q09.png)<br>
+![questão 09, tabela](/Estudos/images/Q09.png)<br>

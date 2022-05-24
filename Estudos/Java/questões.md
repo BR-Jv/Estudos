@@ -14,3 +14,7 @@ Realize a leitura de duas matrizes de inteiros, a primeira chamada de A de dimen
 * iterações
 * comandos de seleção 
 
+# Questão 03
+Leia 3 valores de ponto flutuante e efetue o cálculo das raizes da euqação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente "Impossível calcular", caso haja uma divisão por 0 ou raiz de numero negativo.
+
+![Questão 03](/Estudos/images/Q03-Java.png)
