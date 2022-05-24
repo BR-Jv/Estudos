@@ -46,7 +46,7 @@ Escreva um programa que receba do usuário um número inteiro n, representando a
 Sabe-se que uma matriz quadrada A qualquer é considerada simétrica se for igual à sua transposta.
 Escreva um programa que receba do usuário um número inteiro positivo, seguido dos elementos de uma matriz A de n elementos. Feito isso, o programa deve imprimir na tela a mensagem "A matriz eh simetrica", caso a matriz A seja simétrica, ou a mensagem "A matriz nao eh simetrica", em caso contrário.
 
-![questão 04, tabela](Estudos/images/Q04.png)<br>
+![questão 04, tabela](/Estudos/images/Q04.png)<br>
 **importante**: O programa deve estar correto e funcionar para qualquer matriz digitada e não apenas as matrizes específicas nos exemplos.
 
 # Questão 05
@@ -58,7 +58,7 @@ Por definição, uma matriz é dita esparsa quando possui uma grande quantidade 
 
 3. Implemente um programa principal que receba do usuário dois números inteiros nl e nc. Em seguida, declare uma matriz de números inteiros M, com nl linhas e nc colunas. Utilize a função lerMatriz para preencher M com valores fornecidos pelo usuário. Utiliize a função esparsa para verificar se M é uma matriz esparsa. O programa deverá imprimir na tela a mensagem "A matriz eh esparsa", caso M seja uma matriz esparsa, ou a mensagem "A matriz nao eh esparsa", em caso contrário.
 
-![questão 05, tabela](/Estudosimages/matriz_esparsa.png)<br>
+![questão 05, tabela](/Estudos/images/matriz_esparsa.png)<br>
 
 # Questão 06 
 1. Defina um tipo estruturado denominado **Vetor**, que será utilizado para representar vetores no espaço R³, e que contenha os campos x, y e z, todos do tipo double.
