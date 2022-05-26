@@ -20,7 +20,7 @@ public class questão01 {
             matriz[row][column] = leitor.nextInt(); 
          }
       }
-      
+      leitor.close();
       //Saida de dados 
       for(int row1 = 0; row1 < m; row1++){
          for(int column1 = 0; column1 < n; column1++){
