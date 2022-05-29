@@ -24,12 +24,12 @@ Se o ponto estiver sobre um dos eixos escreva "Eixo X" ou "Eixo Y".
 | 0 1 | Eixo Y |
 
 # Questão 03 
-Um jovem decidiu viajar pelo mundo e comprou uma mochila com capacidade para 20kg de carga. Para abastecer esta mochila, o jovem deve selecionar itens de uma sequência de n objetos forncecidos. As regras de seleção adotada pelo jovem foram as seguintes: 
-   1. A decisão de inserir ou não um objeto na mochila é tomada à medida em que os objetos vão sendo fornecidos na sequência. Em outras palavras, obdecendo a ordem da sequência.
-   
-   2. Um objeto só será incluido na mochila se na mesma já não existir um objeto com o mesmo peso.
-   
-   3. Mesmo que não exista na mochila outro objeto com o mesmo peso do objeto em análise, um objeto só será incluído na mochila se seu peso somado ao peso total dos itens já incluidos na mochila, não superar os 20kg.
+Um jovem decidiu viajar pelo mundo e comprou uma mochila com capacidade para 20kg de carga. Para abastecer esta mochila, o jovem deve selecionar itens de uma sequência de n objetos fornecidos. As regras de seleção adotada pelo jovem foram as seguintes: 
+
+1. A decisão de inserir ou não um objeto na mochila é tomada à medida em que os objetos vão sendo fornecidos na sequência. Em outras palavras, obdecendo a ordem da sequência.
+2. Um objeto só será incluido na mochila se na mesma já não existir um objeto com o mesmo peso.  
+3. Mesmo que não exista na mochila outro objeto com o mesmo peso do objeto em análise, um objeto só será incluído na mochila se seu peso somado ao peso total dos itens já incluidos na mochila, não superar os 20kg.
+
 Escreva um programa que receba do usuário um número inteiro n, representando a quantidade de itens disponíveis para serem possivelmente carregados na mochila. Em seguida, receba uma sequência de n valores inteiros, representando os pesos de cada objeto disponível para ser colocado na mochila. Para cada valor recebido, faça o carregamento do objeto na mochila, apenas se o mesmo atender à regra de seleção explicada acima. Por fim, faça a impressão do peso total dos objetos carregados na mochila, no formato apresentado na tabela abaixo.
 
 | Entrada | Saída Esperada | 
