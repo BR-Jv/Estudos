@@ -2,8 +2,6 @@
 
 using namespace std;
 
-
-
 int main(){
    bool control = true; 
    int ordem;
@@ -37,5 +35,3 @@ int main(){
     
    return 0;
 }
-
-
