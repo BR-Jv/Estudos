@@ -77,9 +77,9 @@ hora, do tipo inteiro,
 minuto, do tipo inteiro,
 segundo, do tipo inteiro. 
 
-2. Defina um tipo estruturado denominado Carro, que contenha os seguintes membros:
-placa, do tipo string
-entrada, do tipo Horario
+2. Defina um tipo estruturado denominado Carro, que contenha os seguintes membros:<br>
+placa, do tipo string<br>
+entrada, do tipo Horario<br>
 saida, do tipo Horario 
 
 3. No programa principal (função main), receba do usuário um número inteiro n. Em seguida, crie um vetor denominado BancoDeDados com capacidade para armazenar n elementos do tipo Carro. Preencha cada elemento do vetor com informações fornecidas pelo usuário.
