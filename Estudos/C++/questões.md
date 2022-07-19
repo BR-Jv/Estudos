@@ -73,8 +73,8 @@ Por definição, uma matriz é dita esparsa quando possui uma grande quantidade 
 Enquanto engenheiro, você precisa desenvolver um sistema para controlar a entrada e saída de carros em um estacionamento. 
 
 1. Defina um tipo estruturado denominado Horario, que contenha os seguintes membros: 
-hora, do tipo inteiro, 
-minuto, do tipo inteiro,
+hora, do tipo inteiro,<br> 
+minuto, do tipo inteiro,<br>
 segundo, do tipo inteiro. 
 
 2. Defina um tipo estruturado denominado Carro, que contenha os seguintes membros:<br>
